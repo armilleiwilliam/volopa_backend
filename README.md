@@ -16,5 +16,6 @@ on ExchangeRate Model at the function findRate)
 (this command creates tables and populate them with rates data and login details needed for the project,
 the rates are totally invented)
 #### php artisan serve
+#### if you click on the link provided it might suggest to click on "Generate App Key" button and refresh the page
 
 
