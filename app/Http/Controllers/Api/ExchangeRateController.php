@@ -19,7 +19,7 @@ class ExchangeRateController extends Controller
 
     private array $currencies = ["USD", "GBP", "EUR", "AUD"];
 
-    public function findExchangeRate(Request $request)
+    public function findExchangeRate(Request $request): JsonResponse
     {
         $errorMessage = "";
         $validation = Validator::make($request->all(),
