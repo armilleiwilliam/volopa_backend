@@ -13,3 +13,5 @@ Rates in the seeder are absolutely fake, surely they don't reflect the reality.
 (this command creates tables and populate them with rates data and login details needed for the project,
 the rates are totally invented)
 #### php artisan serve
+
+
